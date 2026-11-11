@@ -1,0 +1,6 @@
+# Environment config (contains secrets)
+.env
+
+# Vendor dependencies
+/vendor/
+composer.phar
