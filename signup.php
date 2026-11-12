@@ -310,7 +310,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                            style="padding-left: 14px; background: #ffffff;" 
                            placeholder="Enter Admin Setup PIN">
                     <small style="font-size: 0.74rem; color: #52685d; display: block; margin-top: 5px;">
-                        Admin registration requires the secure setup PIN configured in <code>.env</code>.
+                        This is separate from your account password. If <code>COMMITTRACK_ADMIN_PIN</code> is not set in <code>.env</code>, use the local default PIN <code>commit2026</code>.
                     </small>
                 </div>
             </div>
